@@ -1,0 +1,3 @@
+sudo nano /etc/systemd/system/homeai-assistant.service
+sudo journalctl -u homeai-assistant.service -f
+

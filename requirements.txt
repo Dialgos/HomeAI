@@ -1,0 +1,7 @@
+sounddevice
+vosk
+gTTS
+joblib
+requests
+scipy
+numpy

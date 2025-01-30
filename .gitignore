@@ -1,0 +1,13 @@
+intent_classifier.pkl
+/vosk-model-de-0.21
+/vosk-model-small-de-0.15
+/__pycache__
+/.venv
+/.vscode
+/Messages
+constants.py
+token.json
+kalender-projekt-449311-0ca5fc827e0e.json
+credentials.json
+vosk-model-de-0.21.zip
+vosk-model-small-de-0.15.zip

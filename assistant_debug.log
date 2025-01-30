@@ -1,0 +1,1379 @@
+2024-12-23 12:59:12,358 [INFO] Lade das Vosk-Modell...
+2024-12-23 12:59:13,381 [INFO] Modell erfolgreich geladen.
+2024-12-23 12:59:13,381 [DEBUG] Sprachausgabe: Sagen Sie 'computer'
+2024-12-23 12:59:13,381 [DEBUG] text: Sagen Sie 'computer'
+2024-12-23 12:59:13,381 [DEBUG] tld: com
+2024-12-23 12:59:13,381 [DEBUG] lang: de
+2024-12-23 12:59:13,381 [DEBUG] slow: False
+2024-12-23 12:59:13,381 [DEBUG] lang_check: True
+2024-12-23 12:59:13,381 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff714c5f80>, <function end_of_line at 0xffff714c6160>, <function abbreviations at 0xffff714c6a20>, <function word_sub at 0xffff714c6ac0>]
+2024-12-23 12:59:13,382 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|：|;|\\]|\\(|¿|¡|\\[|‥|、|—|。|…|\\)|，|،', re.IGNORECASE) from: [<function tone_marks at 0xffff714c6b60>, <function period_comma at 0xffff714c6c00>, <function colon at 0xffff714c6ca0>, <function other_punctuation at 0xffff714c6d40>]>
+2024-12-23 12:59:13,382 [DEBUG] timeout: None
+2024-12-23 12:59:13,382 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 12:59:13,382 [DEBUG] pre-processing: <function tone_marks at 0xffff714c5f80>
+2024-12-23 12:59:13,383 [DEBUG] pre-processing: <function end_of_line at 0xffff714c6160>
+2024-12-23 12:59:13,383 [DEBUG] pre-processing: <function abbreviations at 0xffff714c6a20>
+2024-12-23 12:59:13,383 [DEBUG] pre-processing: <function word_sub at 0xffff714c6ac0>
+2024-12-23 12:59:13,384 [DEBUG] text_parts: ["Sagen Sie 'computer'"]
+2024-12-23 12:59:13,384 [DEBUG] text_parts: 1
+2024-12-23 12:59:13,384 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sagen%20Sie%20%27computer%27%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 12:59:13,385 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 12:59:13,652 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 12:59:13,673 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-12-23 12:59:13,673 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 12:59:13,674 [DEBUG] status-0: 200
+2024-12-23 12:59:13,674 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmpsxotpkru.mp3'>
+2024-12-23 12:59:13,674 [DEBUG] part-0 created
+2024-12-23 12:59:13,676 [DEBUG] Saved to /tmp/tmpsxotpkru.mp3
+2024-12-23 12:59:16,182 [INFO] Starte Audio-Stream und höre auf Hotword...
+2024-12-23 12:59:16,389 [DEBUG] Loaded backend agg version v2.2.
+2024-12-23 12:59:16,396 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,397 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,398 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,399 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,400 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,401 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-12-23 12:59:16,402 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,403 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-12-23 12:59:16,404 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-12-23 12:59:16,405 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,406 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 12:59:16,407 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,408 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-12-23 12:59:16,472 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,473 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-12-23 12:59:16,474 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,475 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,476 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,477 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 12:59:16,478 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,479 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,480 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-12-23 12:59:16,481 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 12:59:16,482 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 12:59:16,482 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-12-23 12:59:16,561 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:16,748 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:16,937 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:17,123 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:17,310 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:17,481 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:17,657 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:17,834 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:18,076 [WARNING] Audio stream status: input overflow
+2024-12-23 12:59:18,125 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:18,373 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:18,549 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:18,720 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:18,894 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,074 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,262 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,435 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,604 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,772 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:19,949 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,127 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,385 [WARNING] Audio stream status: input overflow
+2024-12-23 12:59:20,423 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,567 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,710 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,852 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:20,992 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,128 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,275 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,416 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,550 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,692 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:21,838 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:22,168 [ERROR] Fehler im Audio-Verarbeitungs-Thread: cannot access local variable 'active' where it is not associated with a value
+2024-12-23 12:59:22,193 [WARNING] Audio stream status: input overflow
+2024-12-23 12:59:22,255 [INFO] Beenden durch Benutzer.
+2024-12-23 12:59:22,259 [INFO] Assistent beendet.
+2024-12-23 13:00:24,813 [INFO] Lade das Vosk-Modell...
+2024-12-23 13:00:25,810 [INFO] Modell erfolgreich geladen.
+2024-12-23 13:00:25,810 [DEBUG] Sprachausgabe: Sagen Sie 'computer'
+2024-12-23 13:00:25,810 [DEBUG] text: Sagen Sie 'computer'
+2024-12-23 13:00:25,811 [DEBUG] tld: com
+2024-12-23 13:00:25,811 [DEBUG] lang: de
+2024-12-23 13:00:25,811 [DEBUG] slow: False
+2024-12-23 13:00:25,811 [DEBUG] lang_check: True
+2024-12-23 13:00:25,811 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff836f5f80>, <function end_of_line at 0xffff836f6160>, <function abbreviations at 0xffff836f6a20>, <function word_sub at 0xffff836f6ac0>]
+2024-12-23 13:00:25,811 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|\\]|。|‥|：|¡|¿|\\\n|…|\\[|;|،|—|，|、|\\)', re.IGNORECASE) from: [<function tone_marks at 0xffff836f6b60>, <function period_comma at 0xffff836f6c00>, <function colon at 0xffff836f6ca0>, <function other_punctuation at 0xffff836f6d40>]>
+2024-12-23 13:00:25,811 [DEBUG] timeout: None
+2024-12-23 13:00:25,811 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 13:00:25,812 [DEBUG] pre-processing: <function tone_marks at 0xffff836f5f80>
+2024-12-23 13:00:25,812 [DEBUG] pre-processing: <function end_of_line at 0xffff836f6160>
+2024-12-23 13:00:25,812 [DEBUG] pre-processing: <function abbreviations at 0xffff836f6a20>
+2024-12-23 13:00:25,813 [DEBUG] pre-processing: <function word_sub at 0xffff836f6ac0>
+2024-12-23 13:00:25,813 [DEBUG] text_parts: ["Sagen Sie 'computer'"]
+2024-12-23 13:00:25,813 [DEBUG] text_parts: 1
+2024-12-23 13:00:25,814 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sagen%20Sie%20%27computer%27%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 13:00:25,815 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 13:00:26,040 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 13:00:26,058 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-12-23 13:00:26,058 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 13:00:26,058 [DEBUG] status-0: 200
+2024-12-23 13:00:26,059 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmpwtehjwmg.mp3'>
+2024-12-23 13:00:26,059 [DEBUG] part-0 created
+2024-12-23 13:00:26,061 [DEBUG] Saved to /tmp/tmpwtehjwmg.mp3
+2024-12-23 13:00:28,570 [INFO] Starte Audio-Stream und höre auf Hotword...
+2024-12-23 13:00:28,670 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0530 Sekunden
+2024-12-23 13:00:28,720 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0491 Sekunden
+2024-12-23 13:00:28,792 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0472 Sekunden
+2024-12-23 13:00:28,841 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0486 Sekunden
+2024-12-23 13:00:28,890 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0483 Sekunden
+2024-12-23 13:00:28,938 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:28,986 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0475 Sekunden
+2024-12-23 13:00:29,035 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0483 Sekunden
+2024-12-23 13:00:29,083 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0476 Sekunden
+2024-12-23 13:00:29,202 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1191 Sekunden
+2024-12-23 13:00:29,256 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0535 Sekunden
+2024-12-23 13:00:29,307 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:29,359 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0515 Sekunden
+2024-12-23 13:00:29,415 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0556 Sekunden
+2024-12-23 13:00:29,434 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:29,477 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0612 Sekunden
+2024-12-23 13:00:29,528 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0515 Sekunden
+2024-12-23 13:00:29,580 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:29,629 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0493 Sekunden
+2024-12-23 13:00:29,680 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:29,732 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:29,791 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0591 Sekunden
+2024-12-23 13:00:29,843 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:29,895 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0516 Sekunden
+2024-12-23 13:00:29,947 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0523 Sekunden
+2024-12-23 13:00:29,997 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0495 Sekunden
+2024-12-23 13:00:30,048 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:30,107 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0593 Sekunden
+2024-12-23 13:00:30,158 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:30,209 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:30,260 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0501 Sekunden
+2024-12-23 13:00:30,310 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:30,369 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0586 Sekunden
+2024-12-23 13:00:30,420 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:30,470 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:30,521 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:30,572 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0511 Sekunden
+2024-12-23 13:00:30,622 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0495 Sekunden
+2024-12-23 13:00:30,681 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0587 Sekunden
+2024-12-23 13:00:30,731 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:30,782 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:30,833 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:30,884 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:30,935 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:30,997 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0608 Sekunden
+2024-12-23 13:00:31,047 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0502 Sekunden
+2024-12-23 13:00:31,098 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:31,148 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:31,198 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:31,257 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0591 Sekunden
+2024-12-23 13:00:31,308 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:31,357 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:31,408 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0502 Sekunden
+2024-12-23 13:00:31,458 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:31,509 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:31,568 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0589 Sekunden
+2024-12-23 13:00:31,619 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:31,669 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0502 Sekunden
+2024-12-23 13:00:31,720 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:31,770 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0501 Sekunden
+2024-12-23 13:00:31,829 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0589 Sekunden
+2024-12-23 13:00:31,880 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:31,930 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:31,980 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:32,031 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:32,082 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:32,140 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0585 Sekunden
+2024-12-23 13:00:32,191 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0502 Sekunden
+2024-12-23 13:00:32,241 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:32,292 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:32,343 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0514 Sekunden
+2024-12-23 13:00:32,393 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:32,452 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0588 Sekunden
+2024-12-23 13:00:32,502 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:32,554 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0511 Sekunden
+2024-12-23 13:00:32,604 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:32,655 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:32,714 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0587 Sekunden
+2024-12-23 13:00:32,764 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:32,816 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:32,866 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0501 Sekunden
+2024-12-23 13:00:32,916 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0497 Sekunden
+2024-12-23 13:00:32,967 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:33,027 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0600 Sekunden
+2024-12-23 13:00:33,078 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0502 Sekunden
+2024-12-23 13:00:33,128 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:33,179 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:33,229 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:33,280 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:33,436 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1555 Sekunden
+2024-12-23 13:00:33,482 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0458 Sekunden
+2024-12-23 13:00:33,532 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:33,578 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0456 Sekunden
+2024-12-23 13:00:33,626 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:33,814 [DEBUG] Partial Text: computer
+2024-12-23 13:00:34,771 [DEBUG] Verarbeitungszeit für ein Audio-Block: 1.1441 Sekunden
+2024-12-23 13:00:34,819 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:34,863 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:34,908 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:34,952 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0440 Sekunden
+2024-12-23 13:00:34,996 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0437 Sekunden
+2024-12-23 13:00:35,097 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1008 Sekunden
+2024-12-23 13:00:35,142 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0447 Sekunden
+2024-12-23 13:00:35,188 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0455 Sekunden
+2024-12-23 13:00:35,233 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0444 Sekunden
+2024-12-23 13:00:35,277 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:35,328 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0512 Sekunden
+2024-12-23 13:00:35,373 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0443 Sekunden
+2024-12-23 13:00:35,419 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0455 Sekunden
+2024-12-23 13:00:35,464 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:35,508 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0444 Sekunden
+2024-12-23 13:00:35,552 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0439 Sekunden
+2024-12-23 13:00:35,604 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:35,648 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0440 Sekunden
+2024-12-23 13:00:35,693 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:35,737 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:35,782 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0444 Sekunden
+2024-12-23 13:00:35,827 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0443 Sekunden
+2024-12-23 13:00:35,880 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0534 Sekunden
+2024-12-23 13:00:35,925 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:35,971 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0455 Sekunden
+2024-12-23 13:00:36,015 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0442 Sekunden
+2024-12-23 13:00:36,060 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0443 Sekunden
+2024-12-23 13:00:36,112 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0517 Sekunden
+2024-12-23 13:00:36,156 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0440 Sekunden
+2024-12-23 13:00:36,201 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:36,246 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0451 Sekunden
+2024-12-23 13:00:36,291 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:36,336 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:36,388 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0516 Sekunden
+2024-12-23 13:00:36,432 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0444 Sekunden
+2024-12-23 13:00:36,478 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0455 Sekunden
+2024-12-23 13:00:36,523 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0447 Sekunden
+2024-12-23 13:00:36,567 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0439 Sekunden
+2024-12-23 13:00:36,612 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0442 Sekunden
+2024-12-23 13:00:36,664 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0523 Sekunden
+2024-12-23 13:00:36,709 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0446 Sekunden
+2024-12-23 13:00:36,754 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:36,800 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0454 Sekunden
+2024-12-23 13:00:36,844 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0440 Sekunden
+2024-12-23 13:00:36,897 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0526 Sekunden
+2024-12-23 13:00:36,941 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0443 Sekunden
+2024-12-23 13:00:36,987 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0452 Sekunden
+2024-12-23 13:00:37,032 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0445 Sekunden
+2024-12-23 13:00:37,076 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0443 Sekunden
+2024-12-23 13:00:37,120 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0438 Sekunden
+2024-12-23 13:00:37,173 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0523 Sekunden
+2024-12-23 13:00:37,217 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:37,262 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0446 Sekunden
+2024-12-23 13:00:37,307 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0446 Sekunden
+2024-12-23 13:00:37,352 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0444 Sekunden
+2024-12-23 13:00:37,397 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0452 Sekunden
+2024-12-23 13:00:37,454 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0561 Sekunden
+2024-12-23 13:00:37,498 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0442 Sekunden
+2024-12-23 13:00:37,543 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0449 Sekunden
+2024-12-23 13:00:37,587 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0440 Sekunden
+2024-12-23 13:00:37,632 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:37,685 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0526 Sekunden
+2024-12-23 13:00:37,730 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0451 Sekunden
+2024-12-23 13:00:37,776 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:00:37,822 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0464 Sekunden
+2024-12-23 13:00:37,868 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:00:37,914 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0456 Sekunden
+2024-12-23 13:00:37,968 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0536 Sekunden
+2024-12-23 13:00:38,014 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0456 Sekunden
+2024-12-23 13:00:38,060 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0462 Sekunden
+2024-12-23 13:00:38,106 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0460 Sekunden
+2024-12-23 13:00:38,152 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:00:38,213 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0604 Sekunden
+2024-12-23 13:00:38,258 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0449 Sekunden
+2024-12-23 13:00:38,305 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:38,351 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0457 Sekunden
+2024-12-23 13:00:38,397 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:00:38,442 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:00:38,587 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1447 Sekunden
+2024-12-23 13:00:38,637 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0487 Sekunden
+2024-12-23 13:00:38,684 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0461 Sekunden
+2024-12-23 13:00:38,730 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0459 Sekunden
+2024-12-23 13:00:38,776 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0459 Sekunden
+2024-12-23 13:00:38,822 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0461 Sekunden
+2024-12-23 13:00:39,120 [DEBUG] Partial Text: schau dich ruhig
+2024-12-23 13:00:39,120 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2976 Sekunden
+2024-12-23 13:00:39,170 [DEBUG] Partial Text: schau dich ruhig
+2024-12-23 13:00:39,170 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0494 Sekunden
+2024-12-23 13:00:39,216 [DEBUG] Partial Text: schau dich ruhig
+2024-12-23 13:00:39,216 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0461 Sekunden
+2024-12-23 13:00:39,262 [DEBUG] Partial Text: schau dich ruhig
+2024-12-23 13:00:39,262 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0458 Sekunden
+2024-12-23 13:00:39,308 [DEBUG] Partial Text: schau dich ruhig
+2024-12-23 13:00:39,308 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0459 Sekunden
+2024-12-23 13:00:39,454 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,454 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1462 Sekunden
+2024-12-23 13:00:39,501 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,502 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0473 Sekunden
+2024-12-23 13:00:39,549 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,549 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0472 Sekunden
+2024-12-23 13:00:39,595 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,595 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0462 Sekunden
+2024-12-23 13:00:39,640 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,641 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0452 Sekunden
+2024-12-23 13:00:39,687 [DEBUG] Partial Text: chalet jeder
+2024-12-23 13:00:39,687 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0461 Sekunden
+2024-12-23 13:00:39,798 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:39,798 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1113 Sekunden
+2024-12-23 13:00:39,842 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:39,842 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0441 Sekunden
+2024-12-23 13:00:39,890 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:39,890 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0473 Sekunden
+2024-12-23 13:00:39,937 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:39,937 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0472 Sekunden
+2024-12-23 13:00:39,984 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:39,984 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0467 Sekunden
+2024-12-23 13:00:40,031 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,031 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:40,086 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,086 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0551 Sekunden
+2024-12-23 13:00:40,134 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,134 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0475 Sekunden
+2024-12-23 13:00:40,182 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,182 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:40,230 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,230 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0477 Sekunden
+2024-12-23 13:00:40,278 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,278 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0476 Sekunden
+2024-12-23 13:00:40,343 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,343 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0650 Sekunden
+2024-12-23 13:00:40,391 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,391 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:40,439 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,439 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0484 Sekunden
+2024-12-23 13:00:40,487 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,487 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0476 Sekunden
+2024-12-23 13:00:40,535 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,535 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0476 Sekunden
+2024-12-23 13:00:40,582 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,582 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0475 Sekunden
+2024-12-23 13:00:40,638 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,638 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0558 Sekunden
+2024-12-23 13:00:40,686 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,686 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0474 Sekunden
+2024-12-23 13:00:40,734 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,734 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0480 Sekunden
+2024-12-23 13:00:40,782 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,782 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:40,830 [DEBUG] Partial Text: chalet jeder ein
+2024-12-23 13:00:40,830 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:40,922 [INFO] Erkannter Text: chalet jeder ein
+2024-12-23 13:00:40,922 [DEBUG] Bereinigter Text: chalet jeder ein
+2024-12-23 13:00:40,924 [DEBUG] Erkannter Intent: control_device_on für Text: 'chalet jeder ein'
+2024-12-23 13:00:40,924 [DEBUG] Verarbeite Intent: control_device_on mit Text: 'chalet jeder ein'
+2024-12-23 13:00:40,924 [DEBUG] Sprachausgabe: Ich konnte das Gerät nicht erkennen.
+2024-12-23 13:00:40,924 [DEBUG] text: Ich konnte das Gerät nicht erkennen.
+2024-12-23 13:00:40,924 [DEBUG] tld: com
+2024-12-23 13:00:40,924 [DEBUG] lang: de
+2024-12-23 13:00:40,924 [DEBUG] slow: False
+2024-12-23 13:00:40,924 [DEBUG] lang_check: True
+2024-12-23 13:00:40,924 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff836f5f80>, <function end_of_line at 0xffff836f6160>, <function abbreviations at 0xffff836f6a20>, <function word_sub at 0xffff836f6ac0>]
+2024-12-23 13:00:40,924 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|\\]|。|‥|：|¡|¿|\\\n|…|\\[|;|،|—|，|、|\\)', re.IGNORECASE) from: [<function tone_marks at 0xffff836f6b60>, <function period_comma at 0xffff836f6c00>, <function colon at 0xffff836f6ca0>, <function other_punctuation at 0xffff836f6d40>]>
+2024-12-23 13:00:40,924 [DEBUG] timeout: None
+2024-12-23 13:00:40,924 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 13:00:40,925 [DEBUG] pre-processing: <function tone_marks at 0xffff836f5f80>
+2024-12-23 13:00:40,925 [DEBUG] pre-processing: <function end_of_line at 0xffff836f6160>
+2024-12-23 13:00:40,925 [DEBUG] pre-processing: <function abbreviations at 0xffff836f6a20>
+2024-12-23 13:00:40,925 [DEBUG] pre-processing: <function word_sub at 0xffff836f6ac0>
+2024-12-23 13:00:40,925 [DEBUG] text_parts: ['Ich konnte das Gerät nicht erkennen.']
+2024-12-23 13:00:40,925 [DEBUG] text_parts: 1
+2024-12-23 13:00:40,925 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ich%20konnte%20das%20Ger%5C%5Cu00e4t%20nicht%20erkennen.%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 13:00:40,926 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 13:00:41,176 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 13:00:41,198 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '186'}
+2024-12-23 13:00:41,199 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 13:00:41,199 [DEBUG] status-0: 200
+2024-12-23 13:00:41,199 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmp0q0_4h4l.mp3'>
+2024-12-23 13:00:41,199 [DEBUG] part-0 created
+2024-12-23 13:00:41,202 [DEBUG] Saved to /tmp/tmp0q0_4h4l.mp3
+2024-12-23 13:00:43,923 [DEBUG] Verarbeitungszeit für ein Audio-Block: 3.0929 Sekunden
+2024-12-23 13:00:43,973 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0495 Sekunden
+2024-12-23 13:00:44,023 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:44,073 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0497 Sekunden
+2024-12-23 13:00:44,123 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:44,173 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:44,305 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1310 Sekunden
+2024-12-23 13:00:44,356 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0511 Sekunden
+2024-12-23 13:00:44,406 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0500 Sekunden
+2024-12-23 13:00:44,457 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:44,507 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0499 Sekunden
+2024-12-23 13:00:44,558 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:44,616 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0571 Sekunden
+2024-12-23 13:00:44,665 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0491 Sekunden
+2024-12-23 13:00:44,715 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0498 Sekunden
+2024-12-23 13:00:44,764 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0486 Sekunden
+2024-12-23 13:00:44,814 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0493 Sekunden
+2024-12-23 13:00:44,871 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0565 Sekunden
+2024-12-23 13:00:44,920 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0494 Sekunden
+2024-12-23 13:00:44,970 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0493 Sekunden
+2024-12-23 13:00:45,020 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0495 Sekunden
+2024-12-23 13:00:45,068 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0484 Sekunden
+2024-12-23 13:00:45,118 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0490 Sekunden
+2024-12-23 13:00:45,177 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0591 Sekunden
+2024-12-23 13:00:45,228 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:45,277 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0492 Sekunden
+2024-12-23 13:00:45,328 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:45,378 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0488 Sekunden
+2024-12-23 13:00:45,427 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0495 Sekunden
+2024-12-23 13:00:45,485 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0573 Sekunden
+2024-12-23 13:00:45,535 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0497 Sekunden
+2024-12-23 13:00:45,584 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0485 Sekunden
+2024-12-23 13:00:45,634 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:45,683 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0487 Sekunden
+2024-12-23 13:00:45,859 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1750 Sekunden
+2024-12-23 13:00:45,909 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:45,960 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:46,010 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0496 Sekunden
+2024-12-23 13:00:46,059 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0490 Sekunden
+2024-12-23 13:00:46,107 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:46,303 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,303 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1955 Sekunden
+2024-12-23 13:00:46,357 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,357 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0541 Sekunden
+2024-12-23 13:00:46,407 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,408 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:46,458 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,458 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:46,510 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,510 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0517 Sekunden
+2024-12-23 13:00:46,561 [DEBUG] Partial Text: braucht
+2024-12-23 13:00:46,561 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0509 Sekunden
+2024-12-23 13:00:46,671 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,671 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1095 Sekunden
+2024-12-23 13:00:46,723 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,723 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0517 Sekunden
+2024-12-23 13:00:46,773 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,774 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:46,824 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,825 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:46,875 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,876 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:46,940 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,941 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0647 Sekunden
+2024-12-23 13:00:46,991 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:46,992 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:47,043 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,043 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0512 Sekunden
+2024-12-23 13:00:47,094 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,094 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0511 Sekunden
+2024-12-23 13:00:47,144 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,145 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0503 Sekunden
+2024-12-23 13:00:47,196 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,197 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0517 Sekunden
+2024-12-23 13:00:47,262 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,262 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0657 Sekunden
+2024-12-23 13:00:47,314 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,314 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0518 Sekunden
+2024-12-23 13:00:47,366 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,366 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0515 Sekunden
+2024-12-23 13:00:47,417 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,417 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:47,469 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,469 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0515 Sekunden
+2024-12-23 13:00:47,531 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,532 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0626 Sekunden
+2024-12-23 13:00:47,582 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,583 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:47,633 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,634 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:47,684 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,684 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:47,736 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,736 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0514 Sekunden
+2024-12-23 13:00:47,787 [DEBUG] Partial Text: dieser
+2024-12-23 13:00:47,787 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:47,862 [INFO] Erkannter Text: braucht wieder
+2024-12-23 13:00:47,863 [DEBUG] Bereinigter Text: braucht wieder
+2024-12-23 13:00:47,864 [DEBUG] Erkannter Intent: unknown für Text: 'braucht wieder'
+2024-12-23 13:00:47,864 [DEBUG] Verarbeite Intent: unknown mit Text: 'braucht wieder'
+2024-12-23 13:00:47,865 [DEBUG] Sprachausgabe: Ich habe Sie nicht verstanden. Können Sie das wiederholen?
+2024-12-23 13:00:47,865 [DEBUG] text: Ich habe Sie nicht verstanden. Können Sie das wiederholen?
+2024-12-23 13:00:47,865 [DEBUG] tld: com
+2024-12-23 13:00:47,865 [DEBUG] lang: de
+2024-12-23 13:00:47,865 [DEBUG] slow: False
+2024-12-23 13:00:47,865 [DEBUG] lang_check: True
+2024-12-23 13:00:47,865 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff836f5f80>, <function end_of_line at 0xffff836f6160>, <function abbreviations at 0xffff836f6a20>, <function word_sub at 0xffff836f6ac0>]
+2024-12-23 13:00:47,865 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|\\]|。|‥|：|¡|¿|\\\n|…|\\[|;|،|—|，|、|\\)', re.IGNORECASE) from: [<function tone_marks at 0xffff836f6b60>, <function period_comma at 0xffff836f6c00>, <function colon at 0xffff836f6ca0>, <function other_punctuation at 0xffff836f6d40>]>
+2024-12-23 13:00:47,865 [DEBUG] timeout: None
+2024-12-23 13:00:47,865 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 13:00:47,865 [DEBUG] pre-processing: <function tone_marks at 0xffff836f5f80>
+2024-12-23 13:00:47,866 [DEBUG] pre-processing: <function end_of_line at 0xffff836f6160>
+2024-12-23 13:00:47,866 [DEBUG] pre-processing: <function abbreviations at 0xffff836f6a20>
+2024-12-23 13:00:47,866 [DEBUG] pre-processing: <function word_sub at 0xffff836f6ac0>
+2024-12-23 13:00:47,866 [DEBUG] text_parts: ['Ich habe Sie nicht verstanden. Können Sie das wiederholen?']
+2024-12-23 13:00:47,866 [DEBUG] text_parts: 1
+2024-12-23 13:00:47,866 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ich%20habe%20Sie%20nicht%20verstanden.%20K%5C%5Cu00f6nnen%20Sie%20das%20wiederholen%3F%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 13:00:47,867 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 13:00:48,136 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 13:00:48,163 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '216'}
+2024-12-23 13:00:48,163 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 13:00:48,163 [DEBUG] status-0: 200
+2024-12-23 13:00:48,164 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmpsje_2klp.mp3'>
+2024-12-23 13:00:48,164 [DEBUG] part-0 created
+2024-12-23 13:00:48,167 [DEBUG] Saved to /tmp/tmpsje_2klp.mp3
+2024-12-23 13:00:52,276 [DEBUG] Verarbeitungszeit für ein Audio-Block: 4.4887 Sekunden
+2024-12-23 13:00:52,327 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:52,378 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:52,429 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0510 Sekunden
+2024-12-23 13:00:52,480 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0509 Sekunden
+2024-12-23 13:00:52,531 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:52,597 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0658 Sekunden
+2024-12-23 13:00:52,648 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:52,701 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0521 Sekunden
+2024-12-23 13:00:52,752 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:52,805 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0523 Sekunden
+2024-12-23 13:00:52,864 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0586 Sekunden
+2024-12-23 13:00:52,916 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0524 Sekunden
+2024-12-23 13:00:52,967 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:53,020 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0525 Sekunden
+2024-12-23 13:00:53,071 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0509 Sekunden
+2024-12-23 13:00:53,124 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0527 Sekunden
+2024-12-23 13:00:53,183 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0588 Sekunden
+2024-12-23 13:00:53,236 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0522 Sekunden
+2024-12-23 13:00:53,287 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:53,333 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:53,339 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0521 Sekunden
+2024-12-23 13:00:53,390 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:53,442 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:53,506 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0639 Sekunden
+2024-12-23 13:00:53,553 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:53,562 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0555 Sekunden
+2024-12-23 13:00:53,613 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0505 Sekunden
+2024-12-23 13:00:53,666 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0525 Sekunden
+2024-12-23 13:00:53,717 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0511 Sekunden
+2024-12-23 13:00:53,778 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0603 Sekunden
+2024-12-23 13:00:53,830 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0516 Sekunden
+2024-12-23 13:00:53,881 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0514 Sekunden
+2024-12-23 13:00:53,933 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0513 Sekunden
+2024-12-23 13:00:53,986 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0522 Sekunden
+2024-12-23 13:00:54,032 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:54,038 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0518 Sekunden
+2024-12-23 13:00:54,098 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0599 Sekunden
+2024-12-23 13:00:54,149 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:54,201 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0519 Sekunden
+2024-12-23 13:00:54,252 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0509 Sekunden
+2024-12-23 13:00:54,304 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0519 Sekunden
+2024-12-23 13:00:54,367 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0618 Sekunden
+2024-12-23 13:00:54,420 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0528 Sekunden
+2024-12-23 13:00:54,466 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:54,471 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0512 Sekunden
+2024-12-23 13:00:54,524 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0526 Sekunden
+2024-12-23 13:00:54,577 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0524 Sekunden
+2024-12-23 13:00:54,630 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0526 Sekunden
+2024-12-23 13:00:54,692 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0615 Sekunden
+2024-12-23 13:00:54,745 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0524 Sekunden
+2024-12-23 13:00:54,796 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0507 Sekunden
+2024-12-23 13:00:54,847 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0515 Sekunden
+2024-12-23 13:00:54,899 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0508 Sekunden
+2024-12-23 13:00:54,945 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:54,950 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0509 Sekunden
+2024-12-23 13:00:55,006 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0556 Sekunden
+2024-12-23 13:00:55,054 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0480 Sekunden
+2024-12-23 13:00:55,100 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0463 Sekunden
+2024-12-23 13:00:55,150 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0492 Sekunden
+2024-12-23 13:00:55,197 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:55,254 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0560 Sekunden
+2024-12-23 13:00:55,300 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:55,301 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:55,349 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0481 Sekunden
+2024-12-23 13:00:55,397 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0473 Sekunden
+2024-12-23 13:00:55,445 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:55,492 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0466 Sekunden
+2024-12-23 13:00:55,548 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0556 Sekunden
+2024-12-23 13:00:55,595 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0465 Sekunden
+2024-12-23 13:00:55,644 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:55,691 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0468 Sekunden
+2024-12-23 13:00:55,739 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:55,786 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0467 Sekunden
+2024-12-23 13:00:55,842 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0554 Sekunden
+2024-12-23 13:00:55,888 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0465 Sekunden
+2024-12-23 13:00:55,891 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:55,937 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:55,984 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0474 Sekunden
+2024-12-23 13:00:56,032 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:56,099 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0661 Sekunden
+2024-12-23 13:00:56,147 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:56,195 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0473 Sekunden
+2024-12-23 13:00:56,242 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:56,244 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0497 Sekunden
+2024-12-23 13:00:56,292 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0474 Sekunden
+2024-12-23 13:00:56,341 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0483 Sekunden
+2024-12-23 13:00:56,470 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:00:56,516 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:56,535 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,535 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1939 Sekunden
+2024-12-23 13:00:56,584 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,585 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0494 Sekunden
+2024-12-23 13:00:56,633 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,633 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0486 Sekunden
+2024-12-23 13:00:56,681 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,681 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:56,730 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,730 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0490 Sekunden
+2024-12-23 13:00:56,831 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:00:56,877 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:56,912 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,912 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1816 Sekunden
+2024-12-23 13:00:56,960 [DEBUG] Partial Text: die
+2024-12-23 13:00:56,960 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:57,008 [DEBUG] Partial Text: die
+2024-12-23 13:00:57,009 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:57,055 [DEBUG] Partial Text: die
+2024-12-23 13:00:57,055 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0468 Sekunden
+2024-12-23 13:00:57,103 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:57,103 [DEBUG] Partial Text: die
+2024-12-23 13:00:57,104 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:57,153 [DEBUG] Partial Text: die
+2024-12-23 13:00:57,153 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0492 Sekunden
+2024-12-23 13:00:57,289 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,289 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1361 Sekunden
+2024-12-23 13:00:57,336 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:57,340 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,340 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0506 Sekunden
+2024-12-23 13:00:57,388 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,389 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0486 Sekunden
+2024-12-23 13:00:57,436 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,436 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0473 Sekunden
+2024-12-23 13:00:57,484 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,485 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0484 Sekunden
+2024-12-23 13:00:57,531 [DEBUG] Partial Text: städtische
+2024-12-23 13:00:57,532 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0468 Sekunden
+2024-12-23 13:00:57,626 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,626 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0941 Sekunden
+2024-12-23 13:00:57,673 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,673 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:57,720 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:57,722 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,722 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0487 Sekunden
+2024-12-23 13:00:57,768 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,769 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0467 Sekunden
+2024-12-23 13:00:57,816 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,816 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0475 Sekunden
+2024-12-23 13:00:57,875 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,875 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0592 Sekunden
+2024-12-23 13:00:57,924 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,924 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0484 Sekunden
+2024-12-23 13:00:57,971 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:57,971 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:58,020 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,020 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0490 Sekunden
+2024-12-23 13:00:58,067 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:58,067 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,068 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0471 Sekunden
+2024-12-23 13:00:58,116 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,116 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0482 Sekunden
+2024-12-23 13:00:58,189 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,189 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0732 Sekunden
+2024-12-23 13:00:58,237 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,237 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0480 Sekunden
+2024-12-23 13:00:58,284 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:58,285 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,285 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:58,333 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,333 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:58,379 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,380 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0464 Sekunden
+2024-12-23 13:00:58,427 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,428 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0479 Sekunden
+2024-12-23 13:00:58,512 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,512 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0842 Sekunden
+2024-12-23 13:00:58,562 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,563 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0504 Sekunden
+2024-12-23 13:00:58,610 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,610 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0476 Sekunden
+2024-12-23 13:00:58,658 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,659 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0483 Sekunden
+2024-12-23 13:00:58,706 [DEBUG] Partial Text: städtische drei
+2024-12-23 13:00:58,707 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0478 Sekunden
+2024-12-23 13:00:58,782 [INFO] Erkannter Text: städtische rein
+2024-12-23 13:00:58,782 [DEBUG] Bereinigter Text: städtische rein
+2024-12-23 13:00:58,784 [DEBUG] Erkannter Intent: unknown für Text: 'städtische rein'
+2024-12-23 13:00:58,784 [DEBUG] Verarbeite Intent: unknown mit Text: 'städtische rein'
+2024-12-23 13:00:58,784 [DEBUG] Sprachausgabe: Ich habe Sie nicht verstanden. Können Sie das wiederholen?
+2024-12-23 13:00:58,784 [DEBUG] text: Ich habe Sie nicht verstanden. Können Sie das wiederholen?
+2024-12-23 13:00:58,784 [DEBUG] tld: com
+2024-12-23 13:00:58,784 [DEBUG] lang: de
+2024-12-23 13:00:58,784 [DEBUG] slow: False
+2024-12-23 13:00:58,784 [DEBUG] lang_check: True
+2024-12-23 13:00:58,784 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff836f5f80>, <function end_of_line at 0xffff836f6160>, <function abbreviations at 0xffff836f6a20>, <function word_sub at 0xffff836f6ac0>]
+2024-12-23 13:00:58,784 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|\\]|。|‥|：|¡|¿|\\\n|…|\\[|;|،|—|，|、|\\)', re.IGNORECASE) from: [<function tone_marks at 0xffff836f6b60>, <function period_comma at 0xffff836f6c00>, <function colon at 0xffff836f6ca0>, <function other_punctuation at 0xffff836f6d40>]>
+2024-12-23 13:00:58,784 [DEBUG] timeout: None
+2024-12-23 13:00:58,785 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 13:00:58,785 [DEBUG] pre-processing: <function tone_marks at 0xffff836f5f80>
+2024-12-23 13:00:58,785 [DEBUG] pre-processing: <function end_of_line at 0xffff836f6160>
+2024-12-23 13:00:58,785 [DEBUG] pre-processing: <function abbreviations at 0xffff836f6a20>
+2024-12-23 13:00:58,785 [DEBUG] pre-processing: <function word_sub at 0xffff836f6ac0>
+2024-12-23 13:00:58,785 [DEBUG] text_parts: ['Ich habe Sie nicht verstanden. Können Sie das wiederholen?']
+2024-12-23 13:00:58,785 [DEBUG] text_parts: 1
+2024-12-23 13:00:58,786 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ich%20habe%20Sie%20nicht%20verstanden.%20K%5C%5Cu00f6nnen%20Sie%20das%20wiederholen%3F%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 13:00:58,786 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 13:00:58,807 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:00:58,854 [WARNING] Audio stream status: input overflow
+2024-12-23 13:00:59,075 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 13:00:59,107 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '216'}
+2024-12-23 13:00:59,107 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 13:00:59,107 [DEBUG] status-0: 200
+2024-12-23 13:00:59,108 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmpq8k8hr67.mp3'>
+2024-12-23 13:00:59,108 [DEBUG] part-0 created
+2024-12-23 13:00:59,111 [DEBUG] Saved to /tmp/tmpq8k8hr67.mp3
+2024-12-23 13:01:01,492 [DEBUG] Verarbeitungszeit für ein Audio-Block: 2.7852 Sekunden
+2024-12-23 13:01:01,537 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0447 Sekunden
+2024-12-23 13:01:01,582 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0446 Sekunden
+2024-12-23 13:01:01,627 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0452 Sekunden
+2024-12-23 13:01:01,673 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.0453 Sekunden
+2024-12-23 13:01:01,683 [INFO] Beenden durch Benutzer.
+2024-12-23 13:01:01,683 [INFO] Assistent beendet.
+2024-12-23 13:01:22,922 [INFO] Lade das Vosk-Modell...
+2024-12-23 13:01:23,941 [INFO] Modell erfolgreich geladen.
+2024-12-23 13:01:23,942 [DEBUG] Sprachausgabe: Sagen Sie 'computer'
+2024-12-23 13:01:23,942 [DEBUG] text: Sagen Sie 'computer'
+2024-12-23 13:01:23,942 [DEBUG] tld: com
+2024-12-23 13:01:23,942 [DEBUG] lang: de
+2024-12-23 13:01:23,942 [DEBUG] slow: False
+2024-12-23 13:01:23,942 [DEBUG] lang_check: True
+2024-12-23 13:01:23,942 [DEBUG] pre_processor_funcs: [<function tone_marks at 0xffff83d25f80>, <function end_of_line at 0xffff83d26160>, <function abbreviations at 0xffff83d26a20>, <function word_sub at 0xffff83d26ac0>]
+2024-12-23 13:01:23,942 [DEBUG] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|、|¿|\\(|…|。|，|\\]|\\)|\\[|—|\\\n|;|،|：|¡|‥', re.IGNORECASE) from: [<function tone_marks at 0xffff83d26b60>, <function period_comma at 0xffff83d26c00>, <function colon at 0xffff83d26ca0>, <function other_punctuation at 0xffff83d26d40>]>
+2024-12-23 13:01:23,942 [DEBUG] timeout: None
+2024-12-23 13:01:23,943 [DEBUG] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-12-23 13:01:23,943 [DEBUG] pre-processing: <function tone_marks at 0xffff83d25f80>
+2024-12-23 13:01:23,943 [DEBUG] pre-processing: <function end_of_line at 0xffff83d26160>
+2024-12-23 13:01:23,944 [DEBUG] pre-processing: <function abbreviations at 0xffff83d26a20>
+2024-12-23 13:01:23,944 [DEBUG] pre-processing: <function word_sub at 0xffff83d26ac0>
+2024-12-23 13:01:23,944 [DEBUG] text_parts: ["Sagen Sie 'computer'"]
+2024-12-23 13:01:23,944 [DEBUG] text_parts: 1
+2024-12-23 13:01:23,945 [DEBUG] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sagen%20Sie%20%27computer%27%5C%22%2C%5C%22de%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-12-23 13:01:23,946 [DEBUG] Starting new HTTPS connection (1): translate.google.com:443
+2024-12-23 13:01:24,185 [DEBUG] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/11" 200 None
+2024-12-23 13:01:24,202 [DEBUG] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-12-23 13:01:24,203 [DEBUG] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-12-23 13:01:24,203 [DEBUG] status-0: 200
+2024-12-23 13:01:24,203 [DEBUG] part-0 written to <_io.BufferedWriter name='/tmp/tmpvh_zdz0n.mp3'>
+2024-12-23 13:01:24,204 [DEBUG] part-0 created
+2024-12-23 13:01:24,205 [DEBUG] Saved to /tmp/tmpvh_zdz0n.mp3
+2024-12-23 13:01:26,717 [INFO] Starte Audio-Stream und höre auf Hotword...
+2024-12-23 13:01:26,817 [DEBUG] Loaded backend agg version v2.2.
+2024-12-23 13:01:26,821 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2024-12-23 13:01:26,821 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,822 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,823 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,824 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,825 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,826 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,827 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,828 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,829 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,830 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 13:01:26,831 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,832 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-12-23 13:01:26,881 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2024-12-23 13:01:26,881 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,881 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,881 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-12-23 13:01:26,882 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,883 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,884 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,885 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,886 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-12-23 13:01:26,887 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-12-23 13:01:26,888 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-12-23 13:01:26,888 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/lukas/KIBackend/HomeAI/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-12-23 13:01:26,950 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1860 Sekunden
+2024-12-23 13:01:27,099 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1489 Sekunden
+2024-12-23 13:01:27,252 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1525 Sekunden
+2024-12-23 13:01:27,393 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1408 Sekunden
+2024-12-23 13:01:27,547 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1533 Sekunden
+2024-12-23 13:01:27,701 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1540 Sekunden
+2024-12-23 13:01:27,853 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1518 Sekunden
+2024-12-23 13:01:27,999 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1457 Sekunden
+2024-12-23 13:01:28,158 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1586 Sekunden
+2024-12-23 13:01:28,425 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:28,453 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2951 Sekunden
+2024-12-23 13:01:28,587 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1341 Sekunden
+2024-12-23 13:01:28,730 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1423 Sekunden
+2024-12-23 13:01:28,864 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1339 Sekunden
+2024-12-23 13:01:29,009 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1448 Sekunden
+2024-12-23 13:01:29,158 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1488 Sekunden
+2024-12-23 13:01:29,296 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1373 Sekunden
+2024-12-23 13:01:29,442 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1460 Sekunden
+2024-12-23 13:01:29,591 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1486 Sekunden
+2024-12-23 13:01:29,755 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1640 Sekunden
+2024-12-23 13:01:29,915 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1590 Sekunden
+2024-12-23 13:01:30,080 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1654 Sekunden
+2024-12-23 13:01:30,343 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2625 Sekunden
+2024-12-23 13:01:30,349 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:30,487 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1442 Sekunden
+2024-12-23 13:01:30,634 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1464 Sekunden
+2024-12-23 13:01:30,776 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1413 Sekunden
+2024-12-23 13:01:30,935 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1591 Sekunden
+2024-12-23 13:01:31,088 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1531 Sekunden
+2024-12-23 13:01:31,246 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1573 Sekunden
+2024-12-23 13:01:31,392 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1458 Sekunden
+2024-12-23 13:01:31,539 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1469 Sekunden
+2024-12-23 13:01:31,706 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1663 Sekunden
+2024-12-23 13:01:31,994 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2881 Sekunden
+2024-12-23 13:01:32,166 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1721 Sekunden
+2024-12-23 13:01:32,459 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:32,459 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2928 Sekunden
+2024-12-23 13:01:32,606 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1460 Sekunden
+2024-12-23 13:01:32,764 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1580 Sekunden
+2024-12-23 13:01:32,915 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1506 Sekunden
+2024-12-23 13:01:33,075 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1598 Sekunden
+2024-12-23 13:01:33,178 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:33,230 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:33,230 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1551 Sekunden
+2024-12-23 13:01:33,370 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:33,390 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1593 Sekunden
+2024-12-23 13:01:33,417 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:33,546 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1555 Sekunden
+2024-12-23 13:01:33,600 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:33,699 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1526 Sekunden
+2024-12-23 13:01:33,752 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:33,838 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1394 Sekunden
+2024-12-23 13:01:33,891 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:33,989 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1505 Sekunden
+2024-12-23 13:01:34,036 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,137 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:34,138 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1478 Sekunden
+2024-12-23 13:01:34,183 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,395 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2574 Sekunden
+2024-12-23 13:01:34,444 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,535 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1392 Sekunden
+2024-12-23 13:01:34,586 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,663 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1283 Sekunden
+2024-12-23 13:01:34,710 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,809 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1455 Sekunden
+2024-12-23 13:01:34,855 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:34,944 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1344 Sekunden
+2024-12-23 13:01:34,995 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,079 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1352 Sekunden
+2024-12-23 13:01:35,130 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,207 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1280 Sekunden
+2024-12-23 13:01:35,253 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,344 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1360 Sekunden
+2024-12-23 13:01:35,395 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,483 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1389 Sekunden
+2024-12-23 13:01:35,530 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,629 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1456 Sekunden
+2024-12-23 13:01:35,680 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,762 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1332 Sekunden
+2024-12-23 13:01:35,809 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:35,908 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1460 Sekunden
+2024-12-23 13:01:35,964 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:36,091 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:36,139 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:36,172 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2639 Sekunden
+2024-12-23 13:01:36,282 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:36,311 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1387 Sekunden
+2024-12-23 13:01:36,329 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:36,455 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1430 Sekunden
+2024-12-23 13:01:36,556 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:36,588 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1331 Sekunden
+2024-12-23 13:01:36,603 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:36,727 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1385 Sekunden
+2024-12-23 13:01:36,828 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:36,860 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1330 Sekunden
+2024-12-23 13:01:36,875 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:36,998 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1381 Sekunden
+2024-12-23 13:01:37,105 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:37,142 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1433 Sekunden
+2024-12-23 13:01:37,154 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:37,299 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:37,310 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1676 Sekunden
+2024-12-23 13:01:37,346 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:37,449 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1387 Sekunden
+2024-12-23 13:01:37,555 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:37,590 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1411 Sekunden
+2024-12-23 13:01:37,604 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:37,830 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:37,854 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2634 Sekunden
+2024-12-23 13:01:37,882 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:37,984 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1301 Sekunden
+2024-12-23 13:01:38,091 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:38,107 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1225 Sekunden
+2024-12-23 13:01:38,139 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:38,250 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1425 Sekunden
+2024-12-23 13:01:38,352 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:38,380 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1303 Sekunden
+2024-12-23 13:01:38,399 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:38,511 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1306 Sekunden
+2024-12-23 13:01:38,612 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:38,645 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1342 Sekunden
+2024-12-23 13:01:38,659 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:38,779 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1333 Sekunden
+2024-12-23 13:01:38,880 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:38,916 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1368 Sekunden
+2024-12-23 13:01:38,933 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:39,054 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1373 Sekunden
+2024-12-23 13:01:39,158 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:39,191 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1369 Sekunden
+2024-12-23 13:01:39,205 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:39,328 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1370 Sekunden
+2024-12-23 13:01:39,541 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:39,574 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2462 Sekunden
+2024-12-23 13:01:39,590 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:39,710 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1352 Sekunden
+2024-12-23 13:01:39,811 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:39,843 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1332 Sekunden
+2024-12-23 13:01:39,858 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:39,966 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1223 Sekunden
+2024-12-23 13:01:40,067 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:40,101 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1348 Sekunden
+2024-12-23 13:01:40,114 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:40,233 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1318 Sekunden
+2024-12-23 13:01:40,336 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:40,360 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1270 Sekunden
+2024-12-23 13:01:40,380 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:40,493 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1329 Sekunden
+2024-12-23 13:01:40,599 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:40,640 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1469 Sekunden
+2024-12-23 13:01:40,648 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:40,780 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1389 Sekunden
+2024-12-23 13:01:40,832 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:40,915 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1356 Sekunden
+2024-12-23 13:01:40,963 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:41,057 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1417 Sekunden
+2024-12-23 13:01:41,109 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:41,256 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:41,306 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:41,323 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2654 Sekunden
+2024-12-23 13:01:41,447 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:41,474 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1502 Sekunden
+2024-12-23 13:01:41,494 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:41,607 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1328 Sekunden
+2024-12-23 13:01:41,711 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:41,746 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1395 Sekunden
+2024-12-23 13:01:41,758 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:41,884 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1373 Sekunden
+2024-12-23 13:01:41,987 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:42,020 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1363 Sekunden
+2024-12-23 13:01:42,033 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:42,146 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1258 Sekunden
+2024-12-23 13:01:42,252 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:42,301 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:42,358 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2114 Sekunden
+2024-12-23 13:01:42,409 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:42,514 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:42,516 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1577 Sekunden
+2024-12-23 13:01:42,562 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:42,682 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1662 Sekunden
+2024-12-23 13:01:42,788 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:42,832 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1497 Sekunden
+2024-12-23 13:01:42,847 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:42,998 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:42,999 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1662 Sekunden
+2024-12-23 13:01:43,045 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:43,303 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:43,349 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:43,449 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:43,462 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.4629 Sekunden
+2024-12-23 13:01:43,496 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:43,611 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1492 Sekunden
+2024-12-23 13:01:43,716 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:43,766 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1543 Sekunden
+2024-12-23 13:01:43,774 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:43,923 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:43,931 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1648 Sekunden
+2024-12-23 13:01:43,970 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:44,079 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1473 Sekunden
+2024-12-23 13:01:44,184 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:44,243 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:44,252 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1726 Sekunden
+2024-12-23 13:01:44,386 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:44,432 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:44,492 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2404 Sekunden
+2024-12-23 13:01:44,539 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:44,644 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:44,653 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1605 Sekunden
+2024-12-23 13:01:44,691 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:44,816 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1627 Sekunden
+2024-12-23 13:01:44,922 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:44,969 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1526 Sekunden
+2024-12-23 13:01:44,972 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:45,117 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:45,137 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1675 Sekunden
+2024-12-23 13:01:45,163 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:45,291 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1542 Sekunden
+2024-12-23 13:01:45,338 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:45,501 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:45,558 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:45,589 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2971 Sekunden
+2024-12-23 13:01:45,700 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:45,732 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1432 Sekunden
+2024-12-23 13:01:45,744 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:45,872 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1400 Sekunden
+2024-12-23 13:01:45,921 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,013 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1403 Sekunden
+2024-12-23 13:01:46,061 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,159 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1456 Sekunden
+2024-12-23 13:01:46,207 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,309 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:46,355 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,412 [DEBUG] Partial Text: alle
+2024-12-23 13:01:46,412 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2532 Sekunden
+2024-12-23 13:01:46,464 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,560 [DEBUG] Partial Text: alle
+2024-12-23 13:01:46,560 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1475 Sekunden
+2024-12-23 13:01:46,609 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,700 [DEBUG] Partial Text: alle
+2024-12-23 13:01:46,700 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1401 Sekunden
+2024-12-23 13:01:46,747 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,837 [DEBUG] Partial Text: alle
+2024-12-23 13:01:46,837 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1371 Sekunden
+2024-12-23 13:01:46,887 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:46,976 [DEBUG] Partial Text: alle
+2024-12-23 13:01:46,976 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1384 Sekunden
+2024-12-23 13:01:47,023 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:47,121 [DEBUG] Partial Text: alle
+2024-12-23 13:01:47,121 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1450 Sekunden
+2024-12-23 13:01:47,173 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:47,276 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:47,322 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:47,410 [DEBUG] Partial Text: alle
+2024-12-23 13:01:47,410 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2892 Sekunden
+2024-12-23 13:01:47,457 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:47,664 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:47,687 [DEBUG] Partial Text: alle
+2024-12-23 13:01:47,687 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.2769 Sekunden
+2024-12-23 13:01:47,714 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:47,826 [DEBUG] Partial Text: alle
+2024-12-23 13:01:47,826 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1384 Sekunden
+2024-12-23 13:01:47,932 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:47,968 [DEBUG] Partial Text: alle
+2024-12-23 13:01:47,968 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1416 Sekunden
+2024-12-23 13:01:47,981 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:48,111 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,111 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1432 Sekunden
+2024-12-23 13:01:48,161 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:48,250 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,250 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1392 Sekunden
+2024-12-23 13:01:48,297 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:48,398 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:48,444 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:48,449 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,450 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1991 Sekunden
+2024-12-23 13:01:48,588 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:48,589 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,589 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1393 Sekunden
+2024-12-23 13:01:48,635 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:48,734 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,734 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1449 Sekunden
+2024-12-23 13:01:48,840 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:48,871 [DEBUG] Partial Text: alle
+2024-12-23 13:01:48,871 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1369 Sekunden
+2024-12-23 13:01:48,889 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:49,010 [DEBUG] Partial Text: alle
+2024-12-23 13:01:49,011 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1393 Sekunden
+2024-12-23 13:01:49,116 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:49,163 [DEBUG] Partial Text: alle
+2024-12-23 13:01:49,163 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1521 Sekunden
+2024-12-23 13:01:49,163 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:49,310 [WARNING] Audio-Warteschlange ist voll. Überspringe diesen Block.
+2024-12-23 13:01:49,317 [DEBUG] Partial Text: alle
+2024-12-23 13:01:49,317 [DEBUG] Verarbeitungszeit für ein Audio-Block: 0.1544 Sekunden
+2024-12-23 13:01:49,356 [WARNING] Audio stream status: input overflow
+2024-12-23 13:01:49,365 [INFO] Beenden durch Benutzer.
+2024-12-23 13:01:49,371 [INFO] Assistent beendet.
